@@ -22,12 +22,11 @@
 
     <TextView
         android:id="@+id/title_text"
-        android:layout_width="426dp"
+        android:layout_width="410dp"
         android:layout_height="116dp"
-        android:layout_marginStart="4dp"
-        android:layout_marginTop="4dp"
         android:background="@drawable/rounded_cornerbg"
         android:gravity="center"
+        android:textAlignment="center"
         android:text="Search"
         android:textColor="#5C4033"
         android:textSize="25sp"

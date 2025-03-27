@@ -9,14 +9,6 @@
     android:textColor="#420516"
     tools:context=".Profile1">
 
-    <ImageView
-        android:id="@+id/imageView18"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@drawable/img26"
-        tools:layout_editor_absoluteX="10dp"
-        tools:layout_editor_absoluteY="112dp" />
-
     <TextView
         android:id="@+id/title_text"
         android:layout_width="426dp"
@@ -53,6 +45,20 @@
         android:textSize="30dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:layout_constraintTop_toBottomOf="@+id/title_text">
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/img26"
+            tools:layout_editor_absoluteX="10dp"
+            tools:layout_editor_absoluteY="112dp" />
+    </ScrollView>
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"

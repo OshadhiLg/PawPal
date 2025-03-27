@@ -33,6 +33,9 @@
             android:name=".SearchPage"
             android:exported="true" />
         <activity
+            android:name=".SearchPage2"
+            android:exported="true" />
+        <activity
             android:name=".SplashActivity"
             android:exported="true">
             <intent-filter>
