@@ -9,16 +9,7 @@
     android:textColor="#420516"
     tools:context=".Payment1">
 
-    <ImageView
-        android:id="@+id/imageView14"
-        android:layout_width="362dp"
-        android:layout_height="752dp"
-        app:layout_constraintBottom_toBottomOf="@+id/bottomNavigationView"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/title_text"
-        app:layout_constraintVertical_bias="0.746"
-        app:srcCompat="@drawable/img22" />
+
 
     <TextView
         android:id="@+id/title_text"
@@ -57,6 +48,35 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        app:layout_constraintTop_toBottomOf="@+id/title_text">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="362dp"
+                android:layout_height="752dp"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/img22" />
+            <Button
+                android:id="@+id/button11"
+                android:layout_width="216dp"
+                android:layout_height="52dp"
+                android:layout_marginBottom="10dp"
+                android:layout_gravity="center"
+                android:backgroundTint="#82D08181"
+                android:text="Pay Now"
+                android:textSize="20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent" />
+        </LinearLayout>
+    </ScrollView>
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
@@ -66,18 +86,5 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:menu="@menu/nav_bar" />
-
-    <Button
-        android:id="@+id/button11"
-        android:layout_width="216dp"
-        android:layout_height="52dp"
-        android:layout_marginBottom="100dp"
-        android:backgroundTint="#82D08181"
-        android:text="Pay Now"
-        android:textSize="20dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>

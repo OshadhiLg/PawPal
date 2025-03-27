@@ -62,6 +62,9 @@
         <activity
             android:name=".HomePage"
             android:exported="true" />
+        <activity
+            android:name=".Contact_Details"
+            android:exported="true" />
     </application>
 
 </manifest>
