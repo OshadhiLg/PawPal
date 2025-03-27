@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBDF"
+    android:orientation="vertical"
+    android:gravity="center">
+
+
+    <ImageView
+        android:layout_width="232dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="-70dp"
+        android:contentDescription="App Logo"
+        android:src="@drawable/pastel_cute_pet_care_logo__1__removebg_preview"
+        tools:layout_editor_absoluteX="89dp"
+        tools:layout_editor_absoluteY="7dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Register Now"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#420516"
+        android:textSize="28dp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <!-- Email Input -->
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="User Name"
+        android:textColor="#5C4033"
+        android:textSize="18dp"
+        android:typeface="serif"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="292dp" />
+
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:background="@drawable/rounded_cornerbg"
+        android:padding="10dp"
+        android:textColor="#5C4033"
+        android:textColorHint="#A1887F"
+        android:textSize="15sp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="326dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="#5C4033"
+        android:textSize="18dp"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="406dp" />
+
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_cornerbg"
+        android:padding="10dp"
+        android:textColor="#5C4033"
+        android:textColorHint="#A1887F"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="432dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Telephone Number"
+        android:textColor="#5C4033"
+        android:textSize="18dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="28dp"
+        android:typeface="serif"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="511dp" />
+
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_cornerbg"
+        android:padding="10dp"
+        android:textColor="#5C4033"
+        android:textColorHint="#A1887F"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="541dp" />
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:textColor="#5C4033"
+        android:textSize="18dp"
+        android:typeface="serif"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="20dp"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="623dp" />
+
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_cornerbg"
+        android:padding="10dp"
+        android:textColor="#5C4033"
+        android:textColorHint="#A1887F"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="651dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="280dp"
+        android:layout_height="52dp"
+        android:text="Sign Up"
+        android:backgroundTint="#d19494"
+        android:layout_marginTop="50dp"
+        android:textSize="19dp"
+        tools:layout_editor_absoluteX="65dp"
+        tools:layout_editor_absoluteY="759dp" />
+
+
+</LinearLayout>

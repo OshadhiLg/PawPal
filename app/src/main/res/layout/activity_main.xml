@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EFEBDF"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <!-- Logo Image -->
+    <ImageView
+        android:layout_width="210dp"
+        android:layout_height="217dp"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/pastel_cute_pet_care_logo__1__removebg_preview"
+        android:contentDescription="App Logo"/>
+
+    <!-- Login Title -->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="Log in"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#420516"
+        android:textSize="27sp"
+        android:typeface="serif"
+        android:textStyle="bold"/>
+
+    <!-- Email Label -->
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="30dp"
+        android:text="Email"
+        android:textSize="18sp"
+        android:textColor="#5C4033"
+        android:typeface="serif"/>
+
+    <!-- Email Input -->
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_cornerbg"
+        android:hint="Enter your email"
+        android:padding="10dp"
+        android:textColor="#5C4033"
+        android:textColorHint="#A1887F"
+        android:textSize="15sp"/>
+
+    <!-- Password Label -->
+
+    <!-- Password Input -->
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="20dp"
+        android:text="Password"
+        android:textColor="#5C4033"
+        android:textSize="18sp"
+        android:typeface="serif" />
+
+    <EditText
+        android:layout_width="336dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="40dp"
+        android:background="@drawable/rounded_cornerbg"
+        android:hint="Enter your password"
+        android:padding="10dp"
+        android:textColor="#5C4033"
+        android:textColorHint="#A1887F"
+        android:textSize="15sp"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Forgot Password?"
+        android:textColor="#BD1E1E"
+        android:backgroundTint="#EFEBDF" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="You don't have an account?"
+        android:backgroundTint="#EFEBDF"
+        android:textColor="#BD1E1E"/>
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="308dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#d19494"
+        android:text="Log in"
+        android:textSize="18sp"/>
+
+
+
+
+</LinearLayout>
